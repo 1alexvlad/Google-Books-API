@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, status
 from typing import List 
 
-from services.google_books import GoogleBookServices
-from schemas.books import  BookResponse
+from app.services.google_books import GoogleBookServices
+from app.schemas.books import  BookResponse
 from config import settings
 
 
