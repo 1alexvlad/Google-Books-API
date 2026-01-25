@@ -3,7 +3,7 @@ from typing import List
 
 from app.services.google_books import GoogleBookServices
 from app.schemas.books import  BookResponse
-from config import settings
+from venv.app.config import settings
 
 
 router = APIRouter(prefix='/books', tags=['books'])
