@@ -12,7 +12,8 @@
 - **httpx** - Для выполнения асинхронных HTTP-запросов к Google Books API
 - **pydantic** - Для валидации данных
 - **Google Books API** - Предоставляет данные о книгах 
-
+- **Alembic** - Для миграций
+- 
 ## Requirements
 - **Install `uv`**
 ```bash

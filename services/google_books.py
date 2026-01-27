@@ -2,8 +2,8 @@ from fastapi import HTTPException, status
 import httpx 
 from typing import List
 
-from app.schemas.books import BookResponse
-from app.utils.isbn_utils import extract_isbn_identifiers
+from schemas.books import BookResponse
+from utils.isbn_utils import extract_isbn_identifiers
 
 
 
